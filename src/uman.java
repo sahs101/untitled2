@@ -1,7 +1,7 @@
 
 
 
-    public class uman extends Storage{
+    public class uman {
         private static int count = 0;
         private String name;
         private int age;

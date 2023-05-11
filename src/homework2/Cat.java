@@ -1,9 +1,9 @@
 package homework2;
 
-public class cat {
+public class Cat extends Animal {
     private String color;
     private int age;
-    public cat (String Color, int Age){
+    public Cat (String Color, int Age){
         this.color = Color;
         this.age =Age;
     }
@@ -15,5 +15,11 @@ public class cat {
     }
     public int getAge(){
         return this.age;
+    }
+
+    @Override
+    public void eat() {
+        super.eat();
+        System.out.println("жрёт нах");
     }
 }
